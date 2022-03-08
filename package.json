@@ -1,0 +1,27 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"author": "Luke Johnson",
+	"description": "A project that does something truely awesome",
+	"keywords": [
+		"truely",
+		"awesome",
+		"freecodecamp"
+	],
+  "license": "MIT",
+  	"version": "1.2.0",
+	"dependencies": {
+		"express": "^4.14.0",
+    	"moment": "2.10.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "8.11.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lpninja/boilerplate-npm/blob/master/package.json"
+	}
+}
